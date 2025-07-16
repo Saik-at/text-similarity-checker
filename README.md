@@ -1,19 +1,19 @@
-# 🔁 AI-Generated Text Similarity Checker
+# AI-Generated Text Similarity Checker
 
 A web-based tool that uses Sentence Transformers to calculate the semantic similarity between two pieces of text. Ideal for plagiarism detection, paraphrasing evaluation, or GenAI output comparisons.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✍️ Accepts two user-provided text inputs
-- 🧠 Uses `all-MiniLM-L6-v2` model from Sentence Transformers
-- 📏 Computes cosine similarity score in real time
-- 💻 Streamlit UI for interactive testing
+- Accepts two user-provided text inputs
+- Uses `all-MiniLM-L6-v2` model from Sentence Transformers
+- Computes cosine similarity score in real time
+- Streamlit UI for interactive testing
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 text_similarity_checker/
 ├── streamapp.py # Streamlit UI
