@@ -1,0 +1,33 @@
+Purpose:
+I built a tool that helps compare two pieces of text to determine how similar in meaning they are. The goal wasn’t just to check for common words, but to actually understand if the intent and context were alike.
+
+⚙️ What I Did:
+I used a pre-trained AI model that understands language to convert each sentence into a list of numbers — a special kind of representation called a semantic embedding.
+
+I then compared those embeddings using something called cosine similarity, which tells me how close their meanings are — like comparing angles between two directions.
+
+Finally, I displayed this similarity as a percentage score — the higher the score, the more similar the two texts are in meaning.
+
+🛠 Tools I Used:
+Sentence Transformers to generate meaning-based sentence vectors.
+
+scikit-learn to compute similarity between them.
+
+Streamlit to create a simple, interactive web app where users can input two texts and instantly see the similarity score.
+
+🧪 What It Can Do:
+It correctly recognizes that sentences like “I enjoy coding” and “Programming is fun” are closely related.
+
+It also understands when sentences are very different, like “I love movies” vs “The economy is declining.”
+
+✅ Final Outcome:
+I created a clean and functional app where anyone can:
+
+Input two sentences,
+
+Click a button,
+
+And instantly get a smart, AI-powered similarity score.
+
+It’s a great example of how language models can understand meaning beyond just words.
+
